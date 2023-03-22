@@ -59,4 +59,14 @@ luaspersegipanjang(panjang, lebar);
        cout << "luas lingkaran : " << luaslingkaran(jejari);
        break;
 
+    case 4:
+
+           break;
+     default:
+          cout << " pilihan anda salah!";
+          break;
+         }
+      }while (pilihan != 4);
+
+}
 
