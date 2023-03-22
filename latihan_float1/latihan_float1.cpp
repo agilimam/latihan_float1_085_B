@@ -12,3 +12,10 @@ float luaslingkaran(float r) {
 float luassegitiga(float a, float t) {
 	return 0, 5 * a * t;
 }
+
+int main() {
+	float panjang, lebar, tinggi, jejari, alas;
+	int pilihan;
+
+
+}
