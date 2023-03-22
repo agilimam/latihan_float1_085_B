@@ -35,19 +35,28 @@ do
 
       switch (pilihan)
       {
-      case 1:
-          cout << "masukan panjang : ";
-          cin >> panjang;
-          cout << "masukan lebar : ";
-          cin >> lebar;
-          cout << "luas persegipanjang = " <<
-
-              luaspersegipanjang(panjang, lebar);
+   case 1:
+        cout << "masukan panjang : ";
+        cin >> panjang;
+        cout << "masukan lebar : ";
+        cin >> lebar;
+        cout << "luas persegipanjang = " <<
+luaspersegipanjang(panjang, lebar);
           break;
      
-      case 2:
-          cout << "masukan alas : ";
-          cin >> alas;
-          cout << "masukan tinggi : ";
-          cin >> tinggi;
-          cout << "luas segitiga = " <<
+   case 2:
+        cout << "masukan alas : ";
+        cin >> alas;
+        cout << "masukan tinggi : ";
+        cin >> tinggi;
+        cout << "luas segitiga = " <<
+ luassegitiga(alas, tinggi);
+        break;
+
+   case 3:
+       cout << "masukan jari-jari : ";
+       cin >> jejari;
+       cout << "luas lingkaran : " << luaslingkaran(jejari);
+       break;
+
+
