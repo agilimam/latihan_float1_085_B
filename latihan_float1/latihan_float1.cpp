@@ -41,3 +41,13 @@ do
           cout << "masukan lebar : ";
           cin >> lebar;
           cout << "luas persegipanjang = " <<
+
+              luaspersegipanjang(panjang, lebar);
+          break;
+     
+      case 2:
+          cout << "masukan alas : ";
+          cin >> alas;
+          cout << "masukan tinggi : ";
+          cin >> tinggi;
+          cout << "luas segitiga = " <<
